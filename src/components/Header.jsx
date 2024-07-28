@@ -17,10 +17,10 @@ function Header() {
         <div>
           <ul className="flex gap-5 md:mr-44 md:gap-8">
             <li className="mt-2">
-              <NavLink to="home">Home</NavLink>
+              <NavLink to="/website/home">Home</NavLink>
             </li>
             <li className="mt-2">
-              <NavLink to="about">About</NavLink>
+              <NavLink to="/website/about">About</NavLink>
             </li> 
             <div className="hidden md:flex">
             <button className="w-fit bg-chose-10 px-4 py-2 rounded-3xl text-white">Get Started</button>
@@ -33,6 +33,7 @@ function Header() {
           </div>
       </div>
       </header>
+      
     </div>
   );
 }
